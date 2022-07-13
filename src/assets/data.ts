@@ -152,7 +152,7 @@ export class Data {
       description: 'Utilizing the Google Maps API, Angular, MySQL, PHP, and Bootstrap to develop a web application. We created a proof of concept for a larger-scale service based on our college campus for a localized, information-filled, interactive map. Initially based on a prior project of the same name.',
     },
     {
-      name: 'Broad Strokes: Artwork Classification',
+      name: 'Broad Strokes',
       semester: 'Fall 2020',
       description: 'Developed a convolutional neural network, a k-nearest neighbors classifier, and a support vector machine (Python) with a group of peers to predict an artist based on images of artworks. We wrote a paper to describe our project, outcomes, and future improvements.',
       link: {
@@ -193,7 +193,7 @@ export class Data {
   public static EXPERIENCES: Experience[] = [
     {
       company: 'FedEx Services',
-      department: 'FXF Rating Modernization Department',
+      department: 'FXF Rating Modernization',
       location: 'Remote',
       start: 'June 2022',
       end: 'Present',
@@ -206,7 +206,7 @@ export class Data {
     },
     {
       company: 'FedEx Services',
-      department: 'FXF Pricing and Rating Modernization Department',
+      department: 'FXF Pricing and Rating Modernization',
       location: 'Remote',
       start: 'June 2021',
       end: 'December 2021',
@@ -230,7 +230,7 @@ export class Data {
       end: 'May 2022',
       position: 'TechBuddy Manager',
       description: [
-        'Technology Committee, <emphasis>Member</emphasis>',
+        'Technology Committee, <em>Member</em>',
         'Creating work schedules on a semesterly basis.',
         'Handling incoming calls and emails.',
         'Assisting faculty, staff, and students in navigating and utilizing the FSC Portal, Canvas, projection, and SmartBoard software.',
