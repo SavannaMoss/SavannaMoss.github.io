@@ -127,49 +127,65 @@ export class Data {
       name: 'JIS Orthopedics Location Finder',
       semester: 'Spring 2022',
       description: 'Utilizing VueJS, Firebase, and the Bootstrap framework to develop a web application for JIS Orthopedics to use internally when booking appointments for patients.',
-      link: ''
     },
     {
       name: 'CTR Creative Project',
       semester: 'Spring 2022',
       description: '',
-      link: 'https://savannamoss.github.io/ctr-creative-project/'
+      link: {
+        name: 'GitHub Page',
+        url: 'https://savannamoss.github.io/ctr-creative-project/'
+      }
     },
     {
       name: 'Radical Revision',
       semester: 'Fall 2021',
       description: '',
-      link: 'https://savannamoss.github.io/RadicalRevision/'
+      link: {
+        name: 'GitHub Page',
+        url: 'https://savannamoss.github.io/RadicalRevision/'
+      }
     },
     {
       name: 'TapMaps 2.0',
       semester: 'Fall 2021',
       description: 'Utilizing the Google Maps API, Angular, MySQL, PHP, and Bootstrap to develop a web application. We created a proof of concept for a larger-scale service based on our college campus for a localized, information-filled, interactive map. Initially based on a prior project of the same name.',
-      link: ''
     },
     {
       name: 'Broad Strokes: Artwork Classification',
       semester: 'Fall 2020',
       description: 'Developed a convolutional neural network, a k-nearest neighbors classifier, and a support vector machine (Python) with a group of peers to predict an artist based on images of artworks. We wrote a paper to describe our project, outcomes, and future improvements.',
-      link: 'https://github.com/SavannaMoss/BroadStrokes'
+      link: {
+        name: 'GitHub Repo',
+        url: 'https://github.com/SavannaMoss/BroadStrokes'
+      }
     },
     {
       name: 'onCourse',
       semester: 'Fall 2020',
       description: 'Utilizing MySQL, PHP, and Bootstrap to develop a website for students to manage courses they have taken and specific General Education credits they need to graduate on time.',
-      link: 'https://github.com/SavannaMoss/onCourse'
+      link: {
+        name: 'GitHub Repo',
+        url: 'https://github.com/SavannaMoss/onCourse'
+      }
     },
     {
       name: 'Gin Rummy AI PLayer',
       semester: 'Summer 2020',
       description: 'Developed a Gin Rummy AI player (Java) for the EAAI Undergraduate Research Challenge with two professors and a classmate. After submitting the AI player to the competition, we wrote a paper to discuss our research, process, and outcomes.',
-      link: 'https://www.aaai.org/AAAI21Papers/EAAI-66.EicholtzM.pdf'
+      link: {
+        name: 'Paper',
+        url: 'https://www.aaai.org/AAAI21Papers/EAAI-66.EicholtzM.pdf'
+      }
     },
     {
       name: 'TapMaps',
       semester: 'Spring 2020',
       description: 'Utilizing the Google Maps API, VueJS, and Firebase Firestore to develop a web application called TapMaps. We created a proof of concept based on our college campus for a localized, information-filled, interactive map.',
-      link: 'https://github.com/SavannaMoss/TapMaps'
+      link: {
+        name: 'GitHub Repo',
+        url: 'https://github.com/SavannaMoss/TapMaps'
+      }
     }
   ]
 
