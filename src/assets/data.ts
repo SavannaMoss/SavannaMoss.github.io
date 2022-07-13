@@ -21,6 +21,10 @@ export class Data {
     honors: 'summa cum laude',
     awards: [
       {
+        name: 'Computer Science Department Outstanding Senior',
+        semesters: ['Spring \'22']
+      },
+      {
         name: 'Dean\'s List',
         semesters: ['Fall \'18', 'Fall \'19', 'Fall \'21', 'Spring \'22',]
       },

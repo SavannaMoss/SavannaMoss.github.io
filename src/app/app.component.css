@@ -4,4 +4,8 @@ img {
   filter: invert(1);
 }
 
+.nav-link.active {
+  color: darkseagreen;
+}
+
 /*# sourceMappingURL=app.component.css.map */

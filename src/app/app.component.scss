@@ -1,5 +1,10 @@
+@import "../scss/variables.scss";
 img {
   width: 5rem;
   height: 5rem;
   filter: invert(1);
+}
+
+.nav-link.active {
+  color: $dark-sea-green;
 }
