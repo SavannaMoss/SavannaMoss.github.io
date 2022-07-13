@@ -1,0 +1,17 @@
+nav {
+  background-color: #17301c;
+}
+
+.nav-item .nav-link {
+  color: floralwhite;
+}
+
+.nav-item .nav-link:hover {
+  color: #679267;
+}
+
+body {
+  background-color: darkseagreen;
+}
+
+/*# sourceMappingURL=light-theme.css.map */

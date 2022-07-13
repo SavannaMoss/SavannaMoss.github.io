@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+nav {
+  background-color: #17301c;
+}
+
+.nav-item .nav-link {
+  color: antiquewhite;
+}
+
+.nav-item .nav-link:hover {
+  color: darkseagreen;
+}
+
+body {
+  background-color: darkseagreen;
+  color: darkslategray;
+}
+
+body {
+  font-family: "Titillium Web", sans-serif;
+}
+
+/*# sourceMappingURL=styles.css.map */

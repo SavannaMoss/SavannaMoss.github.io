@@ -1,0 +1,19 @@
+@import "../scss/variables.scss";
+
+// NAVBAR
+nav {
+  background-color: $phthalo-green;
+}
+
+.nav-item .nav-link {
+  color: antiquewhite;
+}
+.nav-item .nav-link:hover {
+  color: $dark-sea-green;
+}
+
+// BODY
+body {
+  background-color: $dark-sea-green;
+  color: darkslategray;
+}
