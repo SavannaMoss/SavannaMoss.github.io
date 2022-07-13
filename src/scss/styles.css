@@ -20,4 +20,8 @@ body {
   font-family: "Titillium Web", sans-serif;
 }
 
+.card {
+  display: inline-block;
+}
+
 /*# sourceMappingURL=styles.css.map */
