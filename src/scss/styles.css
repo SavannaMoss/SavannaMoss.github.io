@@ -1,14 +1,24 @@
 @import url("https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 nav {
   background-color: #17301c;
+  font-size: larger;
 }
 
-.nav-item .nav-link {
+.navbar-light .nav-item .nav-link {
   color: antiquewhite;
 }
-
-.nav-item .nav-link:hover {
+.navbar-light .nav-item .nav-link:hover {
   color: darkseagreen;
+}
+.navbar-light .nav-item .nav-link.active {
+  color: darkseagreen;
+}
+.navbar-light .navbar-toggler {
+  color: antiquewhite;
+  border-color: antiquewhite;
+}
+.navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(250, 235, 215, 0.5)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 
 body {
@@ -16,12 +26,53 @@ body {
   color: darkslategray;
 }
 
-body {
-  font-family: "Titillium Web", sans-serif;
+.card {
+  color: darkslategray;
+}
+.card .btn-light {
+  color: antiquewhite;
+  background-color: #17301c;
+}
+.card .btn-light:hover {
+  background-color: darkseagreen;
 }
 
-.card {
-  display: inline-block;
+.list-group-item {
+  color: darkslategray;
+}
+
+.accordion .accordion-header .accordion-button {
+  color: darkslategray;
+}
+.accordion .accordion-header .accordion-button:not(.collapsed) {
+  color: darkseagreen;
+  background-color: #17301c;
+  box-shadow: inset 0 -1px 0 rgba(18, 53, 36, 0.13);
+}
+.accordion .accordion-header .accordion-button:focus {
+  z-index: 3;
+  border-color: #17301c;
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgba(18, 53, 36, 0.25);
+}
+.accordion .accordion-header .accordion-button::after {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%2317301c'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+.accordion .accordion-header .accordion-button:not(.collapsed)::after {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%238fbc8f'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+.accordion .accordion-body {
+  color: darkslategray;
+}
+
+.education-row {
+  color: #17301c;
+  background-color: #679267;
+  border-radius: 5px;
+}
+
+body {
+  font-family: "Titillium Web", sans-serif;
 }
 
 /*# sourceMappingURL=styles.css.map */

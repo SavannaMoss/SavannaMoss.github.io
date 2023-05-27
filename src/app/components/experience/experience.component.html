@@ -1,16 +1,16 @@
 <div class="row justify-content-center">
 
-  <div *ngFor="let experience of experiences"
-       class="card m-2 p-0">
-
-    <div class="card-header">{{ experience.start }} - {{ experience.end }}</div>
-
-    <div class="card-body">
-      <h5 class="card-title">{{ experience.position }}</h5>
-      <h6 class="card-subtitle mb-2 text-muted">{{ experience.company }} - <em>{{ experience.department }}</em></h6>
-      <ul class="card-text">
-        <li *ngFor="let bullet of experience.description" [innerHTML]="bullet">{{ bullet }}</li>
-      </ul>
+  <div *ngFor="let experience of experiences" class="col-sm-12 col-md-6">
+    <div class="card m-2 mx-auto p-0 w-100">
+      <div class="card-header">{{ experience.start }} - {{ experience.end }}</div>
+      <div class="card-body">
+        <h5 class="card-title">{{ experience.position }}</h5>
+        <h6 class="card-subtitle mb-2 text-muted">{{ experience.company }} - <em>{{ experience.department }}</em></h6>
+        <ul class="card-text">
+          <li *ngFor="let bullet of experience.description" [innerHTML]="bullet">{{ bullet }}</li>
+        </ul>
+      </div>
     </div>
   </div>
+
 </div>

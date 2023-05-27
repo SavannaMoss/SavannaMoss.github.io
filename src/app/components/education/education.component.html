@@ -1,1 +1,59 @@
-<p>education works!</p>
+<div>
+  <h1>{{ college.name }}</h1>
+  <h4>{{ college.graduation }} - {{ college.degree }} - <em>{{ college.honors }}</em></h4>
+  <h2>{{ college.major }}: {{ college.concentrations[0] }}, {{ college.concentrations[1] }}</h2>
+  <h3>Minor in {{ college.minor }}</h3>
+</div>
+
+<div class="row justify-content-center my-2 py-2 education-row">
+
+  <!-- Awards -->
+  <div class="col-md-6 col-lg-4">
+    <h4 class="text-center">Awards</h4>
+    <div class="list-group my-2">
+      <div *ngFor="let award of college.awards" class="list-group-item">
+        <h5 class="mb-0">{{ award.name }}</h5>
+        <ul class="m-0">
+          <li *ngFor="let semester of award.semesters">{{ semester }}</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Courses -->
+  <div class="col-md-6 col-lg-4">
+    <h4 class="text-center">Relevant Coursework</h4>
+    <div class="accordion my-2" id="accordionCourses">
+      <div *ngFor="let course of courses; index as i" class="accordion-item">
+
+        <span class="accordion-header" [id]="'heading' + i">
+          <button class="accordion-button collapsed py-2 px-3" type="button"
+                  data-bs-toggle="collapse" [attr.data-bs-target]="'#collapse' + i"
+                  aria-expanded="false" [attr.aria-controls]="'collapse' + i">
+            <h5 class="me-2 mb-0">{{ course.title }}</h5>
+          </button>
+        </span>
+
+        <div [id]="'collapse' + i" class="accordion-collapse collapse"
+             [attr.aria-labelledby]="'heading' + i" data-bs-parent="#accordionCourses">
+          <div class="accordion-body">
+            <ul class="mb-0">
+              <li *ngFor="let tech of course.stack">{{ tech }}</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Organizations -->
+  <div class="col-md-6 col-lg-4">
+    <h4 class="text-center">Organizations</h4>
+    <div class="list-group my-2">
+      <div *ngFor="let organization of organizations" class="list-group-item">
+        <h5 class="mb-0">{{ organization.name }}</h5>
+        <em>{{ organization.position }}</em>
+      </div>
+    </div>
+  </div>
+</div>

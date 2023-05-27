@@ -15,10 +15,11 @@ export class Data {
   public static COLLEGE: College = {
     name: 'Florida Southern College',
     graduation: 'May 2022',
+    degree: 'Bachelor of Science',
+    honors: 'summa cum laude',
     major: 'Computer Science',
     concentrations: ['AI & Machine Learning', 'Web & Cloud Computing'],
     minor: 'Mathematics',
-    honors: 'summa cum laude',
     awards: [
       {
         name: 'Computer Science Department Outstanding Senior',
@@ -46,7 +47,7 @@ export class Data {
     },
     {
       title: 'Analysis of Algorithms ',
-      stack: ['Java', '']
+      stack: ['Java']
     },
     {
       title: 'Software Engineering ',
@@ -54,7 +55,7 @@ export class Data {
     },
     {
       title: 'Computer Organization and Architecture',
-      stack: []
+      stack: ['MIPS']
     },
     {
       title: 'Operating Systems and Concurrency ',
@@ -242,6 +243,27 @@ export class Data {
         'Working with other TechBuddies to solve more difficult problems efficiently.',
         'Reporting interactions with faculty, staff, and students to the TechBuddy supervisor.',
         'Using Microsoft Office Suite with proficiency.',
+      ]
+    },
+    {
+      company: 'Florida Southern College',
+      department: 'Admissions Office',
+      location: 'Lakeland, FL',
+      start: 'January 2019',
+      end: 'August 2020',
+      position: 'Front Desk Assistant',
+      description: [
+        'Conducting full front office reception duties.',
+        'Handling multi-phone lines.',
+        'Handling incoming/outgoing calls and correspondence.',
+        'Answering and screening phone calls and forwarding callers to appropriate recipient.',
+        'Greeting prospective students and their guests as they arrive at the front desk.',
+        'Handling and resolving guest queries.',
+        'Transcribing and processing student inquiry cards into a digital database.',
+        'Assisting admissions counselors with various projects as needed.',
+        'Assembling promotional folders.',
+        'Filing and retrieving documents.',
+        'Using Slate, Mongoose, Avery, and Microsoft Office Suite with proficiency.'
       ]
     }
   ]

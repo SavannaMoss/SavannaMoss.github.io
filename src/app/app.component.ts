@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Data }      from "../assets/data";
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'portfolio';
+  name: string = Data.NAME;
+  github: string = Data.GITHUB;
+  linkedin: string = Data.LINKEDIN;
 }
